@@ -11,11 +11,9 @@ class BypassLinkDuitCc
 	}
 }
 
-// https://duit.cc/PtWyD
-
 $class = new BypassLinkDuitCc();
 
-echo "\n [?] Enter Link Duit.cc ( ex. https://duit.cc/PtWyD ): ";
+echo "\n [?] Enter Link Duit.cc: ";
 $input = trim(fgets(STDIN, 1024));
 echo "\n [!] Loading.....";
 sleep(5);
