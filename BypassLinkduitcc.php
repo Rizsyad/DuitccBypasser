@@ -22,8 +22,11 @@ sleep(5);
 echo "\n [!] Please wait, almost to get real link.....";
 sleep(3);
 $show = $class->getUrl($input);
-if ($show != "") {
+if ($show != "") 
+{
 	echo "\n [+] Success to Bypassed: ".$show."\n\n";
-} else {
+} 
+else 
+{
 	echo "\n [-] Can't to Bypassed :( \n\n";
 }
